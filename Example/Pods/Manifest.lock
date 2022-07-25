@@ -1,0 +1,23 @@
+PODS:
+  - Masonry (1.1.0)
+  - PrintHelloWorld (0.0.1):
+    - Masonry
+
+DEPENDENCIES:
+  - PrintHelloWorld (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Masonry
+
+EXTERNAL SOURCES:
+  PrintHelloWorld:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  PrintHelloWorld: 2ce36fa8ea7c34dee95946bf13fae75368d750b7
+
+PODFILE CHECKSUM: b753105840c00d9b1e325561f8b4d7a57b002a03
+
+COCOAPODS: 1.9.3

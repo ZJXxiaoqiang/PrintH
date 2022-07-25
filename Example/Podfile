@@ -1,0 +1,13 @@
+#use_frameworks!
+
+platform :ios, '10.0'
+
+target 'PrintHelloWorld_Example' do
+  pod 'PrintHelloWorld', :path => '../'
+
+  target 'PrintHelloWorld_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

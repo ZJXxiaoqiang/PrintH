@@ -1,0 +1,6 @@
+framework module PrintHelloWorld {
+  umbrella header "PrintHelloWorld-umbrella.h"
+
+  export *
+  module * { export * }
+}
